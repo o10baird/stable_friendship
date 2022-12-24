@@ -1,6 +1,6 @@
 @echo off
 
-if not defined PYTHON (set PYTHON=python)
+if not defined PYTHON (set PYTHON=python3.10)
 if not defined VENV_DIR (set VENV_DIR=venv)
 
 set ERROR_REPORTING=FALSE
